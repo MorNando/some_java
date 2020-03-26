@@ -10,11 +10,7 @@ public class hellotest {
     }
 
     @Test
-    public void testmethod() {   
-	String first ="one";
-	String second ="one";
-        assertEquals(first,second);
+    public void testWillAlwaysFail() {   
+        fail("An error message");
     }
-
-
 }
