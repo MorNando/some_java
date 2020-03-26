@@ -11,8 +11,8 @@ public class hellotest {
 
     @Test
     public void testmethod() {   
-	string first="one";
-	string second="one";
+	String first ="one";
+	String second ="one";
         assertEquals(first,second);
     }
 
